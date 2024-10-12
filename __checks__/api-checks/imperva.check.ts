@@ -6,7 +6,7 @@ new ApiCheck('imperva-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://www.imperva.com/products/content-delivery-network',
+    url: 'https://www.imperva.com',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [

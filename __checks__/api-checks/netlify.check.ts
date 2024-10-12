@@ -6,7 +6,7 @@ new ApiCheck('netlify-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://www.netlify.com/platform/core/edge',
+    url: 'https://www.netlify.com',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [
