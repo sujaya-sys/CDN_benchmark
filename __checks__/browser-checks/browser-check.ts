@@ -14,11 +14,9 @@ const directoryPath = path.join(__dirname);
 const testFiles = fs.readdirSync(directoryPath).filter(file => file.endsWith('.spec.ts'));
 
 testFiles.forEach((testFile, index) => {
-  const isAkamaiCheck = testFile === 'akamai.spec.ts';
-
   new BrowserCheck(`browser-check-${index}`, {
     name: `Browser check for ${testFile}`,
-    activated: !isAkamaiCheck,
+    activated: true,
     muted: false,
     shouldFail: false,
     runParallel: true,
@@ -33,4 +31,3 @@ testFiles.forEach((testFile, index) => {
     },
   });
 });
-
