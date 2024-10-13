@@ -42,6 +42,7 @@ test('visit page and take screenshot'+i, async ({ page }) => {
 
 ## Project Structure
 
+```
 __checks__/
 ├── api-checks/
 │   ├── akamai.check.ts
@@ -62,3 +63,4 @@ __checks__/
 │   ├── imperva.spec.ts    
 │   ├── netlify.spec.ts    
 │   └── vercel-api.spec.ts
+```
