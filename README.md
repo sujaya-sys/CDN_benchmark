@@ -1,6 +1,6 @@
 # CDN Benchmark
 
-This project contains **8 API** and **8 Browser Checks** running **every minute** in **eu-central-1** and **eu-north-1**. 
+This project contains **8 API** running **every minute** and **8 Browser Checks** running **every 5 minutes** in **eu-central-1** and **eu-north-1**. 
 These checks target the homepages of the following eight popular CDNs: Akamai, Cloudflare, Cloudfront, Fastly, Google Cloud, Imperva, Netlify, Vercel.
 
 All API checks have the following format:
