@@ -24,7 +24,7 @@ testFiles.forEach((testFile, index) => {
     locations: ['eu-central-1', 'eu-north-1'],
     tags: [],
     sslCheckDomain: '',
-    frequency: Frequency.EVERY_1M,
+    frequency: Frequency.EVERY_5M,
     environmentVariables: [],
     code: {
       entrypoint: path.join(__dirname, testFile),
