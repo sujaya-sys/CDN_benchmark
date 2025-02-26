@@ -6,7 +6,7 @@ new ApiCheck('akamai-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://www.akamai.com/de',
+    url: 'https://www.adobe.com',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [

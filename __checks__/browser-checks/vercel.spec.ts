@@ -9,7 +9,7 @@ test('visit page and take screenshot'+i, async ({ page }) => {
   // Change checklyhq.com to your site's URL,
   // or, even better, define a ENVIRONMENT_URL environment variable
   // to reuse it across your browser checks
-  const response = await page.goto(process.env.ENVIRONMENT_URL || 'https://www.vercel.com')
+  const response = await page.goto(process.env.ENVIRONMENT_URL || 'https://vercel.com/')
 
   // Take a screenshot
   await page.screenshot({ path: 'screenshot.jpg' })
