@@ -6,7 +6,7 @@ new ApiCheck('cloudfront-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://aws.amazon.com/cloudfront',
+    url: 'https://aws.amazon.com/cloudfront/',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [

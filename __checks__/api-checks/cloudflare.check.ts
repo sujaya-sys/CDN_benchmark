@@ -6,7 +6,7 @@ new ApiCheck('cloudflare-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://www.cloudflare.com',
+    url: 'https://welcome.checklyhq.com',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [

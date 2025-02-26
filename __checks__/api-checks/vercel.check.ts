@@ -6,7 +6,7 @@ new ApiCheck('vercel-api-check', {
   frequency: Frequency.EVERY_1M, 
   request: {
     method: 'GET',
-    url: 'https://www.vercel.com',
+    url: 'https://vercel.com/',
     skipSSL: false, 
     followRedirects: true, 
     assertions: [
